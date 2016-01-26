@@ -4,6 +4,7 @@ describe("Ticket", function(){
     expect(testTicket.movieName).to.equal("Star Wars");
     expect(testTicket.movieTime).to.equal("6:45");
     expect(testTicket.personAge).to.equal("16");
+    expect(testTicket.ticketPrice).to.eql([]);
   });
 
   it("will return the price for a ticket based on selected items", function(){

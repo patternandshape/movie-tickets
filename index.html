@@ -10,11 +10,13 @@
   </head>
   <body>
     <div class="container">
-      <h1>Beagle Theatres</h1>
+      <h1>BEAGLE THEATRES</h1>
       <div class="row">
+
         <div class="col-md-6">
-          <h2>Please choose a movie you'd like to see:</h2>
+          <h4>Please choose a movie you'd like to see:</h4>
           <form id = "movieSelect">
+
             <div class="form-group">
               <label for="movieTitle">Movie:</label>
               <select class="form-control movie-title">
@@ -26,6 +28,7 @@
                 <option value ="old">Rosemary's Baby</option>
               </select>
             </div>
+
             <div class="form-group">
               <label for="showTime">Showtime:</label>
               <select class="form-control show-time">
@@ -38,6 +41,7 @@
                 <option value ="evening">9:30pm</option>
               </select>
             </div>
+
             <div class="form-group">
               <label for="age">Ticket type:</label>
               <select class="form-control age-price">
@@ -47,10 +51,20 @@
                 <option value ="senior">senior: 65 years and over</option>
               </select>
             </div>
-          <button type="submit" class="btn btn-danger">Add</button>
-        </form>
+
+          <button type="submit" class="btn btn-success">Go Tickets!</button>
+
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div id="show-ticket">
+            <h2>Your Ticket: </h2>
+            <p>Movie: <span class="movie-name"></span></p>
+            <p>Showtime: <span class="movie-showtime"></span></p>
+            <p>Ticket price: <span class="ticket-price"></span></p>
+          </div>
         </div>
       </div>
-
+    </div>
   </body>
 </html>
