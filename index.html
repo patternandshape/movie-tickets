@@ -6,9 +6,51 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script type="js/jquery-1.12.0.js"></script>
     <script type="js/scripts.js"></script>
-    <title></title>
+    <title>Beagle Theatres</title>
   </head>
   <body>
+    <div class="container">
+      <h1>Beagle Theatres</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Please choose a movie you'd like to see:</h2>
+          <form id = "movieSelect">
+            <div class="form-group">
+              <label for="movieTitle">Movie:</label>
+              <select class="form-control movie-title">
+                <option></option>
+                <option value ="new">Star Wars: The Force Awakens</option>
+                <option value ="new">Carol</option>
+                <option value ="new">Anomalisa</option>
+                <option value ="old">The Big Lebowski</option>
+                <option value ="old">Rosemary's Baby</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="showTime">Showtime:</label>
+              <select class="form-control show-time">
+                <option></option>
+                <option value ="matinee">12:00pm</option>
+                <option value ="matinee">2:30pm</option>
+                <option value ="matinee">4:30pm</option>
+                <option value ="evening">5:30pm</option>
+                <option value ="evening">7:30pm</option>
+                <option value ="evening">9:30pm</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="age">Ticket type:</label>
+              <select class="form-control age-price">
+                <option></option>
+                <option value ="child">child: 12 years and under</option>
+                <option value ="adult">adult: 13 - 64 years</option>
+                <option value ="senior">senior: 65 years and over</option>
+              </select>
+            </div>
+          <button type="submit" class="btn btn-danger">Add</button>
+        </form>
+        </div>
+      </div>
 
   </body>
 </html>

@@ -9,13 +9,14 @@ Ticket.prototype.price = function() {
   moviePrice["new"] = 5;
   moviePrice["old"] = 2;
 
-  var agePrice = {};
-  agePrice["senior"] = 0;
-  agePrice["adult"] = 3;
-
   var timePrice = {};
   timePrice["matinee"] = 1;
   timePrice["evening"] = 3;
+
+  var agePrice = {};
+  agePrice["senior"] = 0;
+  agePrice["child"] = 0;
+  agePrice["adult"] = 3;
 
   var total = moviePrice[this.movieName] + timePrice[this.movieTime] + agePrice[this.personAge];
   return total;
