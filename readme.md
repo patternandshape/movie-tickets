@@ -1,13 +1,13 @@
-# Address Book
+# Movie Tickets
 
-#### This application builds an address book to store information about various contacts that the user has made.  
+#### This application returns a movie ticket and it's cost based on user inputs.
 #### January 26, 2016
 
 #### By Molly Curtin and Jared Beckler
 
 ## Description
 
-A web application that takes a contact information from a user and returns an address book of all of their contacts' information.
+A web application that takes in a user's movie choice, time preference and age to make a ticket that includes the cost.
 
 ## Technologies Used
 
@@ -22,7 +22,7 @@ A web application that takes a contact information from a user and returns an ad
 * Bootstrap
 * BDD
 
-###Address Book can be viewed at https://github.com/patternandshape/addressBook
+###Movie Tickets can be viewed at https://github.com/patternandshape/movie-tickets
 
 ### License
 
