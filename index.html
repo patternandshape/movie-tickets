@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <script type="js/jquery-1.12.0.js"></script>
-    <script type="js/scripts.js"></script>
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Beagle Theatres</title>
   </head>
   <body>
@@ -21,11 +21,11 @@
               <label for="movieTitle">Movie:</label>
               <select class="form-control movie-title">
                 <option></option>
-                <option value ="new">Star Wars: The Force Awakens</option>
-                <option value ="new">Carol</option>
-                <option value ="new">Anomalisa</option>
-                <option value ="old">The Big Lebowski</option>
-                <option value ="old">Rosemary's Baby</option>
+                <option value ="Star Wars: The Force Awakens">Star Wars: The Force Awakens</option>
+                <option value ="Carol">Carol</option>
+                <option value ="Anomalisa">Anomalisa</option>
+                <option value ="The Big Lebowski">The Big Lebowski</option>
+                <option value ="Rosemary's Baby">Rosemary's Baby</option>
               </select>
             </div>
 
@@ -33,12 +33,12 @@
               <label for="showTime">Showtime:</label>
               <select class="form-control show-time">
                 <option></option>
-                <option value ="matinee">12:00pm</option>
-                <option value ="matinee">2:30pm</option>
-                <option value ="matinee">4:30pm</option>
-                <option value ="evening">5:30pm</option>
-                <option value ="evening">7:30pm</option>
-                <option value ="evening">9:30pm</option>
+                <option value ="12:00pm">12:00pm</option>
+                <option value ="2:30pm">2:30pm</option>
+                <option value ="4:30pm">4:30pm</option>
+                <option value ="5:30pm">5:30pm</option>
+                <option value ="7:30pm">7:30pm</option>
+                <option value ="9:30pm">9:30pm</option>
               </select>
             </div>
 
@@ -52,7 +52,7 @@
               </select>
             </div>
 
-          <button type="submit" class="btn btn-success">Go Tickets!</button>
+          <button type="submit" class="btn btn-warning">Go Tickets!</button>
 
           </form>
         </div>
@@ -61,7 +61,7 @@
             <h2>Your Ticket: </h2>
             <p>Movie: <span class="movie-name"></span></p>
             <p>Showtime: <span class="movie-showtime"></span></p>
-            <p>Ticket price: <span class="ticket-price"></span></p>
+            <p>Ticket price: $<span class="ticket-price"></span>.00</p>
           </div>
         </div>
       </div>
