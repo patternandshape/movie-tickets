@@ -8,7 +8,7 @@ describe("Ticket", function(){
   });
 
   it("will return the price for a ticket based on selected items", function(){
-    var testTicket = new Ticket("new", "evening", "adult");
+    var testTicket = new Ticket("Carol", "9:30pm", "adult");
     expect(testTicket.price()).to.eq(11);
   });
 });

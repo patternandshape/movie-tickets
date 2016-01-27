@@ -7,12 +7,19 @@ function Ticket(movieName, movieTime, personAge) {
 
 Ticket.prototype.price = function() {
   var moviePrice = {};
-  moviePrice["Star Wars: The Force Awakens","Carol","Anomalisa" ] = 5;
-  moviePrice["The Big Lebowski","Rosemary's Baby"] = 2;
+  moviePrice["Star Wars: The Force Awakens"] = 5;
+  moviePrice["Carol"] = 5;
+  moviePrice["Anomalisa"] = 5;
+  moviePrice["The Big Lebowski"] = 2;
+  moviePrice["Rosemary's Baby"] = 2;
 
   var timePrice = {};
-  timePrice["12:00pm","2:30pm","4:30pm"] = 1;
-  timePrice["5:30pm","7:30pm","9:30pm"] = 3;
+  timePrice["12:00pm"] = 1;
+  timePrice["2:30pm"] = 1;
+  timePrice["4:30pm"] = 1;
+  timePrice["5:30pm"] = 3;
+  timePrice["7:30pm"] = 3;
+  timePrice["9:30pm"] = 3;
 
   var agePrice = {};
   agePrice["senior"] = 0;
@@ -41,10 +48,6 @@ $(document).ready(function() {
       $(".movie-name").text(newTicket.movieName);
       $(".movie-showtime").text(newTicket.movieTime);
       $(".ticket-price").text(newTicket.price());
-
-
-
-
 
     resetFields();
   });
