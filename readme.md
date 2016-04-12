@@ -6,7 +6,7 @@ January 26, 2016
 
 ### Description
 
-This website takes a user-submitted word or phrase, replaces the vowels with dashes, and returns the result.
+A web application that takes in a user's movie choice, time preference and age to make a ticket that includes the cost.
 
 ##### Technologies Used
 
