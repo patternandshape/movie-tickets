@@ -1,31 +1,26 @@
 # Movie Tickets
 
-#### This application returns a movie ticket and it's cost based on user inputs.
-#### January 26, 2016
+January 26, 2016
 
-#### By Molly Curtin and Jared Beckler
+##### By Molly Curtin &amp; Jared Beckler
 
-## Description
+### Description
 
-A web application that takes in a user's movie choice, time preference and age to make a ticket that includes the cost.
+This website takes a user-submitted word or phrase, replaces the vowels with dashes, and returns the result.
 
-## Technologies Used
+##### Technologies Used
 
 * HTML
 * CSS
 * JavaScript
-* JQuery
-* Atom
-* Terminal
-* Chai
+* jQuery
 * Mocha
-* Bootstrap
+* Chai
 * BDD
+* Git
 
-###Movie Tickets can be viewed at https://github.com/patternandshape/movie-tickets
+##### License
 
-### License
+*This software is licensed under the MIT license.*
 
-*Licensed under GPL.*
-
-&copy;2016 **Molly Curtin and Jared Beckler**
+&copy;2016 **Molly Curtin &amp; Jared Beckler**
